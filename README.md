@@ -300,7 +300,7 @@ process.on('unhandledRejection', function(reason){
 });
 
 // While PrettyError.start() works out of the box with when.js` unhandled rejections,
-// now that wer'e manually rendering errors, we have to instead use npmjs.org/packages/pretty-monitor
+// now that we're manually rendering errors, we have to instead use npmjs.org/packages/pretty-monitor
 // to handle when.js rejections.
 
 ```
